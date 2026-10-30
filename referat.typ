@@ -16,6 +16,9 @@
   // first-line-indent: 1.5em,
 )
 
+#set enum(spacing: 1.5em)
+#show link: set text(fill: rgb(0, 110, 255))
+
 #show raw: set text(font: "Consolas", size: 12pt)
 #set raw(lang: none, theme: none)
 
@@ -142,3 +145,8 @@ Programul a fost elaborat în limbajul C. Codul este prezentat mai jos, însoți
 #pagebreak()
 
 = CONCLUZII
+
+
+#pagebreak()
+
+= BIBLIOGRAFIE
