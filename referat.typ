@@ -112,7 +112,7 @@ Disciplina: Programarea Calculatoarelor.
 
 Tema: ...
 
-== Scopul lucrăriш
+== Scopul lucrării
 
 #set par(first-line-indent: (amount: 3em, all: true))
 
