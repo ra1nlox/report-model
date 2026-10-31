@@ -8,6 +8,7 @@
 #set text(
   font: "Times New Roman",
   size: 12pt,
+  lang: "ro",
 )
 
 #set par(
