@@ -1,3 +1,12 @@
+// Constants section
+#let stud_name = ""
+#let report_number = ""
+#let prof_name = ""
+#let prof_title = ""
+#let year = "2026"
+#let var_number = ""
+
+
 #set page(
   paper: "a4",
   margin: (left: 3cm, right: 1.5cm, top: 2cm, bottom: 2.25cm),
@@ -58,22 +67,22 @@
   ]
 
   #v(10em)
-  #text(size: 14pt)[*{name last-name}*]
+  #text(size: 14pt)[*#stud_name*]
   #v(1em)
-  #title[Raport de activitate nr. {report-number}]
+  #title[Raport de activitate nr. #report_number]
   #v(2em)
   #text(size: 20pt)[
     *_la cursul de „Programarea Calculatoarelor”_*
   ]
   #text(size: 14pt)[#align(right + bottom)[
     Verificat:\
-    *{prof-fullname prof-title}*\
+    *#prof_name #prof_title*\
     Departamentul Ingineria Sistemelor,\
     Facultatea FCIM, UTM\
   ]]
   #v(7em)
   #align(center + bottom)[
-    *Chișinău - {year}*
+    *Chișinău - #year*
   ]
 ]
 
@@ -127,7 +136,7 @@ Scopul prezentei lucrări constă în ...
 
 = CONDIȚIA PROBLEMEI
 
-== Varianta {var-number}
+== Varianta #var_number
 
 Enunțul problemei / exercițiului: ...
 
