@@ -76,7 +76,7 @@
   ]
   #text(size: 14pt)[#align(right + bottom)[
     Verificat:\
-    *#prof_name #prof_title*\
+    *#prof_name, #prof_title*\
     Departamentul Ingineria Sistemelor,\
     Facultatea FCIM, UTM\
   ]]
